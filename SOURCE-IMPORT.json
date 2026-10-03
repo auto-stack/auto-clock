@@ -1,0 +1,63 @@
+{
+  "repository": "auto-clock",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "repo": "auto-lang",
+      "commit": "17292c07e792e80d4e4da5495fc3fc2917e8aa1e",
+      "path": "examples/ui/012-clock",
+      "primary": true,
+      "fileCount": 7,
+      "pacFields": {
+        "name": "clock",
+        "version": "2.0.0",
+        "scene": "ui",
+        "render": "vue",
+        "title": "Clock",
+        "title_zh": "时钟",
+        "icon": "clock",
+        "category": "tool",
+        "window": "fit",
+        "desktop": "true"
+      },
+      "files": [
+        {
+          "sourcePath": "examples/ui/012-clock/README.md",
+          "path": "README.md",
+          "sha256": "1513cabbe406ba0aeb70691b312a87436f56e07262200ca8882957ffbe9c7377"
+        },
+        {
+          "sourcePath": "examples/ui/012-clock/pac.at",
+          "path": "pac.at",
+          "sha256": "fe5e974e3ebacb15a92bee9f499b5c7f8d84f705d0b11fa3dbc860632832cc33"
+        },
+        {
+          "sourcePath": "examples/ui/012-clock/src/front/app.at",
+          "path": "src/front/app.at",
+          "sha256": "3d6b98d6ce34efb45eeab7b8e7b8cadca6eeedd9379103e7b5ce32986b819b98"
+        },
+        {
+          "sourcePath": "examples/ui/012-clock/tests/clock_vue_timer.png",
+          "path": "tests/clock_vue_timer.png",
+          "sha256": "c98b47ea70aa9160a865cf867a9955ea7369f630441a5731baa9a8cb692a2bd7"
+        },
+        {
+          "sourcePath": "examples/ui/012-clock/tests/clock_vue_world.png",
+          "path": "tests/clock_vue_world.png",
+          "sha256": "aef1a1d1e6545f4bd127bff81acefa733002c1ade411006396d7d2330c3085b9"
+        },
+        {
+          "sourcePath": "examples/ui/012-clock/tests/desktop_mcp.py",
+          "path": "tests/desktop_mcp.py",
+          "sha256": "6d203a54d7f4ef5d786429685e2fdf68da2019bb1d94a2c6afb4dd5e07d00ccb"
+        },
+        {
+          "sourcePath": "examples/ui/012-clock/tests/t3_smoke.py",
+          "path": "tests/t3_smoke.py",
+          "sha256": "c16e647e3b5934344246f276848c86b9cb6c9b72a064d88c738c8a961b5d52b2"
+        }
+      ]
+    }
+  ],
+  "note": "Exact committed source snapshots; packaging changes follow in a separate commit. References are not additional installed apps."
+}
